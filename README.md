@@ -39,7 +39,7 @@ One resource is created in the NetworkWatcherRG resource group.
 ## Obtain OpenShift Cluster Credentials and public IP Addresses
 
 ```
- az aro list-credentials --name <cluster name>  --resource-group <resource group name>
+az aro list-credentials --name <cluster name>  --resource-group <resource group name>
 az aro show -n <cluster name> -g <resource group name> --query '{api:apiserverProfile.ip, ingress:ingressProfiles[0].ip}'
 ```
 
