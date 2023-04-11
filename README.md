@@ -14,6 +14,28 @@ On the Networking tab, select "Public" for "API server visibility" and "Ingress 
 
 The deployment takes about 30 minutes or longer to complete if no errors occur.
 
+### ARO Resources
+
+After a successful ARO deployment, you find two resource groups created automatically in the subscription, NetworkWatchRG and a read-only resource group named as "aro-infra" plus your cluster name.
+
+The ARO cluster (or link) is included in the resource group you use, along with other resources such as vnet and dns zone.
+
+![ARO Cluster Link](media/aro-link.png)
+
+The actual resources of the ARO cluster, a total of 29 of them, are stored in the read-only resource group.
+
+ARO - resources list #1
+
+![ARO Cluster Link](media/aro-resources-1.png)
+
+ARO - resources list #2
+
+![ARO Cluster Link](media/aro-resources-2.png)
+
+One resource is created in the NetworkWatcherRG resource group.
+
+![ARO NetworkWatcher](media/aro-networkwatcher.png)
+
 ## Obtain OpenShift Cluster Credentials and public IP Addresses
 
 ```
