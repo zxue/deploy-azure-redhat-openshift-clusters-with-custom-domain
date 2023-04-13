@@ -1,4 +1,4 @@
-# Deploy A ARO Cluster with A Custom Domain Name In Azure
+# Deploy Azure Red Hat OpenShift (ARO) Clusters with Custom Domain
 
 This document describes the steps you take to deploy a Red Hat Azure OpenShift (ARO) cluster in Azure using a custom domain name instead of the default domain name that Azure provides. In particular, it provides details on how to configure a public cluster and a private cluster. Finally, it includes CLI scripts for creating and configuring a private ARO cluster.
 
