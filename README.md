@@ -109,7 +109,11 @@ You can use RDP, SSH or Azure Bastion to log in to the new VM.
 
 Follow steps on [Connect virtual networks with virtual network peering](https://learn.microsoft.com/en-us/azure/virtual-network/tutorial-connect-virtual-networks-portal).
 
-![ARO VNet Peerings](media/aro-vnet-peerings.png)
+VNET Peerings in VM VNet
+![ARO VNet Peerings](media/aro-vnet-peerings-1.png)
+
+VNET Peerings in ARO VNet
+![ARO VNet Peerings](media/aro-vnet-peerings-2.png)
 
 ### Link the VM VNet to the Private DNS Zone
 
